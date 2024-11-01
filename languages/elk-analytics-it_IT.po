@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ELK Analytics\n"
+"POT-Creation-Date: 2024-11-01 03:20+0100\n"
+"PO-Revision-Date: 2024-11-01 03:23+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: elk-analytics.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: templates/admin/devices.blade.php:14 src/Admin/Admin.php:93
+#: src/Admin/Admin.php:94
+msgid "Devices"
+msgstr "Dispositivi"
+
+#. Plugin Name of the plugin/theme
+#: templates/admin/landing.blade.php:6 src/Admin/Admin.php:73
+#: src/Admin/Admin.php:74
+msgid "ELK Analytics"
+msgstr "ELK Analytics"
+
+#: templates/admin/landing.blade.php:7
+msgid "Welcome to ELK Analytics"
+msgstr "Benvenuto in ELK Analytics"
+
+#: templates/admin/page_views.blade.php:21
+#: templates/admin/partials/pages_table.blade.php:29
+msgid "Page Views"
+msgstr "Visualizzazioni Pagina"
+
+#: templates/admin/pages.blade.php:19 templates/admin/pages.blade.php:20
+#: templates/admin/partials/devices_chart.blade.php:12
+#: src/Helpers/UserAgentHelper.php:30 src/Helpers/UserAgentHelper.php:71
+#: src/Helpers/UserAgentHelper.php:108 src/Helpers/UserAgentHelper.php:145
+#: src/Helpers/UserAgentHelper.php:277 src/Helpers/UserAgentHelper.php:283
+#: src/Helpers/UserAgentHelper.php:285 src/Helpers/UserAgentHelper.php:298
+#: src/Helpers/UserAgentHelper.php:302
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+#: templates/admin/pages.blade.php:28 src/Admin/Admin.php:102
+#: src/Admin/Admin.php:103
+msgid "Pages"
+msgstr "Pagine"
+
+#: templates/admin/partials/devices_chart.blade.php:78
+msgid "Device Usage Distribution"
+msgstr "Distribuzione dispositivi"
+
+#: templates/admin/partials/devices_chart.blade.php:79
+msgid "OS Usage Distribution"
+msgstr "Distribuzione sistema operativo"
+
+#: templates/admin/partials/devices_chart.blade.php:80
+msgid "Browser Usage Distribution"
+msgstr "Distribuzione browser"
+
+#: templates/admin/partials/filter.blade.php:3
+msgid "Min date"
+msgstr "Data Min"
+
+#: templates/admin/partials/filter.blade.php:6
+msgid "Max date"
+msgstr "Data Max"
+
+#: templates/admin/partials/filter.blade.php:9
+msgid "Filter"
+msgstr "Filtro"
+
+#: templates/admin/partials/page_views_chart.blade.php:32
+msgid "Total Page Views"
+msgstr "Visualizzazioni Pagina Totali"
+
+#: templates/admin/partials/page_views_chart.blade.php:40
+msgid "Unique Visitors"
+msgstr "Visitatori Unici"
+
+#: templates/admin/partials/page_views_chart.blade.php:48
+#: templates/admin/partials/page_views_table.blade.php:61
+msgid "Average Pages per Visitor"
+msgstr "Pagine Medie per Visitatore"
+
+#: templates/admin/partials/page_views_chart.blade.php:65
+msgid "Page Views & Visitor Analytics"
+msgstr "Visualizzazioni Pagina e Analisi Visitatori"
+
+#: templates/admin/partials/page_views_chart.blade.php:72
+#: templates/admin/partials/page_views_table.blade.php:34
+msgid "Date"
+msgstr "Data"
+
+#: templates/admin/partials/page_views_chart.blade.php:78
+msgid "Count"
+msgstr "Conteggio"
+
+#: templates/admin/partials/page_views_table.blade.php:14
+#: templates/admin/partials/pages_table.blade.php:5
+msgid "Export CSV"
+msgstr "Esporta CSV"
+
+#: templates/admin/partials/page_views_table.blade.php:15
+#: templates/admin/partials/pages_table.blade.php:6
+msgid "Export XLSX"
+msgstr "Esporta in XLSX"
+
+#: templates/admin/partials/page_views_table.blade.php:16
+#: templates/admin/partials/pages_table.blade.php:7
+msgid "Export PDF"
+msgstr "Esporta in PDF"
+
+#: templates/admin/partials/page_views_table.blade.php:59
+msgid "Unique visitors"
+msgstr "Visitatori unici"
+
+#: templates/admin/partials/page_views_table.blade.php:60
+#: src/Admin/Admin.php:84 src/Admin/Admin.php:85
+msgid "Page views"
+msgstr "Visualizzazioni pagine"
+
+#: templates/admin/partials/page_views_table.blade.php:72
+#: templates/admin/partials/page_views_table.blade.php:79
+msgid "ELK Analytics Data"
+msgstr "Dati ELK Analytics"
+
+#: templates/admin/partials/pages_table.blade.php:19
+msgid "Post ID"
+msgstr "ID Articolo"
+
+#: templates/admin/partials/pages_table.blade.php:20
+msgid "Title"
+msgstr "Titolo"
+
+#: templates/admin/partials/pages_table.blade.php:21
+msgid "Post Type"
+msgstr "Tipo di post"
+
+#: templates/admin/partials/pages_table.blade.php:23
+msgid "Permalink"
+msgstr "Permalink"
+
+#: templates/admin/partials/pages_table.blade.php:40
+#: templates/admin/partials/pages_table.blade.php:47
+msgid "ELK Analytics Pages"
+msgstr "Pagine ELK Analytics"
+
+#: src/Admin/Admin.php:32
+msgid "Analytics Manager"
+msgstr "Analytics Manager"
+
+#: src/Admin/Admin.php:37
+msgid "Analytics User"
+msgstr "Analytics User"
+
+#: src/Admin/Options.php:34
+msgid "Options"
+msgstr "Opzioni"
+
+#: src/Admin/Options.php:38
+msgid "MaxMind API Key"
+msgstr "Chiave API di MaxMind"
+
+#: src/Admin/Options.php:39
+msgid ""
+"Enter your MaxMind API key. You can obtain it <a href=\"https://www.maxmind."
+"com/\" target=\"_blank\" noreferrer>on maxmind.com</a>"
+msgstr ""
+"Inserisci la tua chiave API di MaxMind. Puoi ottenerla <a href=\"https://www."
+"maxmind.com/\" target=\"_blank\" noreferrer>su maxmind.com</a>"
+
+#: src/Helpers/TemplateHelper.php:68
+msgid "Template not found"
+msgstr "Modello non trovato"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple yet powerful analytics plugin for WordPress, providing easy-to-read "
+"insights and visualizations to help you monitor website performance."
+msgstr ""
+"Un semplice ma potente plugin di analisi per WordPress, che fornisce "
+"approfondimenti e visualizzazioni di facile lettura per aiutarti a "
+"monitorare le prestazioni del sito web."
+
+#. Author of the plugin/theme
+msgid "Gabriele Coquillard @ ELK-Lab"
+msgstr "Gabriele Coquillard @ ELK-Lab"
+
+#. Author URI of the plugin/theme
+msgid "https://www.elk-lab.com"
+msgstr "https://www.elk-lab.com"
