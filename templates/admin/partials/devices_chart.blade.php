@@ -1,9 +1,14 @@
-<canvas id="deviceChart"></canvas>
-
-<canvas id="osChart"></canvas>
-
-<canvas id="browserChart"></canvas>
-
+<div class="row">
+  <div class="col-4">
+    <canvas id="deviceChart"></canvas>
+  </div>
+  <div class="col-4">
+    <canvas id="osChart"></canvas>
+  </div>
+  <div class="col-4">
+    <canvas id="browserChart"></canvas>
+  </div>
+</div>
 <script>
   jQuery(function($) {
     const data = @json($data);

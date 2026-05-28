@@ -127,6 +127,7 @@ class Admin {
       wp_enqueue_script('chartjs-plugin-datalabels', ELK_ANALYTICS_PLUGIN_URL . 'assets/js/chartjs-plugin-datalabels.min.js', ['jquery', 'chartjs'], '2.2.0', true);
 
       wp_enqueue_style('tabulator', ELK_ANALYTICS_PLUGIN_URL . 'assets/css/tabulator.min.css', [], '6.3.0');
+      wp_enqueue_style('grid', ELK_ANALYTICS_PLUGIN_URL . 'assets/css/grid.css', [], '0.0.1');
     }
   }
 
